@@ -18,7 +18,6 @@ class User:
         self.password = self._hash_password(password)
         self.phone = phone
         self.stay_logged_in = False
-
     def _hash_password(self, password: str) -> str:
         return hashlib.sha256(password.encode()).hexdigest()
 
