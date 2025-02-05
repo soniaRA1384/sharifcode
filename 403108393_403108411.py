@@ -9,7 +9,6 @@ from datetime import datetime, time
 from typing import Dict, List, Optional, Union
 import unittest
 
-
 class User:
     def __init__(self, id: str, name: str, email: str, password: str, phone: str):
         self.id = id
